@@ -1,0 +1,74 @@
+1.	n00b🤘  — 18/02/2026 01:05
+You have more info on the rules of it all. Wanna tr it in python if he is ok with that
+2.	n00b🤘  — 18/02/2026 01:18
+How would you test this? What would you like to see tested with this?
+3.	Marchel — 18/02/2026 08:12
+"MG utilizes the 15 minute opening range to establish bias in the market and executes trade entries on the 5 minute MNQ/NQ chart. Trade entries for this system look for a close outside of the opening range setting a stop loss based on the opening range distance and targeting extensions of the orb, key levels, and previous session high/lows. There are currently four custom levels that can be designated in the indicator based on QQQ options levels. Stop loss and extension levels can be toggled between long and short trade setups."
+4.	- Isn't screenshots enough to reverse engineer it?
+5.	- Also aren't the rules layed out in the first few rows of the spreadsheet????
+6.	n00b🤘  — 18/02/2026 14:04
+There are rules, but I think im too stupid to figure it out. I watched screenshots but idd those were all 5 min charts, so that confused me. I ry to figure it out based on your info, but its hard to translate English technical text to my native language so i understand each step
+7.	Marchel — 18/02/2026 14:07
+I think at the bottom of gdoc there’s a sheet tabs - one for 5min orb and one for 15min orb 5min orb has screenshots of 5min chart 15min orb has screenshots of 15min chart
+8.	n00b🤘  — 18/02/2026 14:09
+It looks like he waits for the breakout close of a candle, not just the breakout. But that i am not sure of
+9.	Marchel — 18/02/2026 14:09
+"if you try out ORB strategy this coming week, basic rules are: 
+•	Entries during 0645 - 0800 pst
+•	2 trades max (if first is win you stop, if first is loss you get 1 more usually the other direction, if not clean then stop completely)
+•	Wait for entry 5m candle close, but have position / risk ready to go before hand
+•	Just practice on eval / paper before using on funded
+Personally, I will be weighing a little more on the key levels in my real time analysis for reaction / tp levels"
+10.	n00b🤘  — 18/02/2026 14:11
+https://www.tradingview.com/x/7rDgBriF/ Like this.. I don’t get it. He has 9:30 a break to the low. It even closes below -0.5, and yet he takes a long there..
+TradingView
+CME_MINI:MNQ1! Chart Image by macerson
+ 
+11.	so 3 x 5 min is his range. But why does he go long after break low on the 9:30 candle.
+12.	https://www.tradingview.com/x/J2lxHzdb/ And here he does the opposite. Ze have break and close on the long, and he goes long aswell....
+TradingView
+CME_MINI:MNQ1! Chart Image by macerson
+ 
+13.	so I rly dont understand when or how he decides to go long, because my understanding was always, you brake high, you go long, you break low, you go short
+14.	But the way i see it on his charts, it doesnt matter what it brakes, he seems to go long all the time
+15.	Marchel — 18/02/2026 14:14
+Yeah i see your point
+16.	Ill try to remeber or ask him
+17.	n00b🤘  — 18/02/2026 14:14
+https://www.tradingview.com/x/oebGEYSj/ again, break low, he goes long
+TradingView
+CME_MINI:MNQ1! Chart Image by macerson
+ 
+18.	or does he go short but with like 0.1::1 rr
+19.	Marchel — 18/02/2026 14:31
+I think box is the orb 15min 
+•	so when first 5min candle closes outside of 15min orb
+•	then entry on next 5min open and in the same direction of orb break
+•	sl at -.25 15min orb
+•	tp levels are different and market in gdoc sheet
+ 
+20.	I think position tool is just used wrongly - not showin actual tp target instead showing how long it was in profit befote turning around 
+21.	- I don't think there's anything more to it
+22.	Mayo (Swings Only) — 18/02/2026 14:35
+Handsom handsome boys
+23.	Look at you go
+24.	Marchel — 18/02/2026 14:36
+Hahaha
+25.	Your dude wasting my time everyday  
+26.	Nah im trolling Hopefully at least maybe will be helpful 
+27.	Heres the doc again
+28.	https://docs.google.com/spreadsheets/d/1Jt-K-fv0iN7yYNUgU4l_FxnZ3AUL5nDqQpUgkA61UUM/edit?gid=2044766130#gid=2044766130
+Google Docs
+Mechanical ORB
+ 
+29.	Marchel — 18/02/2026 14:47
+ 
+30.	I think 20% is the key
+31.	n00b🤘  — 18/02/2026 17:46
+Yeah. I will try to figure it out. But if you can ask him and he wants to share, would make things more clear.
+32.	Mayo (Swings Only) — 18/02/2026 21:21
+How do you know if it’s 20% until it’s closed
+33.	Wait what
+34.	Marchel — 18/02/2026 22:42
+"Closed"  
+35.	when candle closes only then you take evaluation was it 20%
